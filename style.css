@@ -1,0 +1,107 @@
+body {
+	background: url(images/bg.gif);
+	margin: 0;
+	padding: 0;
+}
+#top_div {
+	background: url(images/topbg.png);
+	height: 40px;
+	opacity: 0.8;
+	-moz-box-shadow: 0 3px 12px rgba(0,0,0,0.8); /* Для Firefox */
+	-webkit-box-shadow: 0 3px 12px rgba(0,0,0,0.8); /* Для Safari и Chrome */
+	box-shadow: 0 3px 12px rgba(0,0,0,0.8); /* Параметры тени */
+}
+#shelf_left {
+	background: url(images/shelf_left2.png) no-repeat;
+	height: 55px;
+	width: 93px;
+	top: 50%;
+	position: absolute;
+	left: 27px;
+	margin: 0;
+	padding: 0;
+}
+#shelf_center {
+	background: url(images/shelf_center2.png) repeat-x;
+	height: 55px;
+	position: absolute;
+	left: 120px;
+	right: 120px;
+	top: 50%;
+	margin: 0;
+	padding: 0;
+}
+#shelf_right {
+	background: url(images/shelf_right2.png) repeat-x;
+	height: 55px;
+	width: 93px;
+	top: 50%;
+	position: absolute;
+	right: 27px;
+	margin: 0;
+	padding: 0;
+}
+#shelf {
+	border: solid 1px;
+}
+#fotoborder1 {
+	left: 140px;
+	margin-top: -71px;
+	width: 150px;
+	height: 125px;
+}
+#fotoborder2 {
+	left: 300px;
+	margin-top: -83px;
+	width: 134px;
+	height: 128px;
+}
+#fotoborder3 {
+	left: 460px;
+	margin-top: -69px;
+}
+#book1 {
+	left: 639px;
+	width: 90px;
+	margin-top: -108px;
+}
+#book2 {
+	left: 770px;
+	margin-top: -108px;
+	width: 102px;
+}
+#items-div2 {
+	position: relative;
+	z-index: 1000;
+	height: 220px;
+}
+#items-div1 {
+	position: absolute;
+	top: 50%;
+	left: 80px;
+	right: 80px;
+	z-index: 1000;
+}
+.drag-overed {
+	opacity: 0.8;
+	/*
+	background-color: #333333;
+	*/
+	border:solid 2px #FF0000;
+	-moz-box-shadow: 0 0px 32px rgba(0,0,0,0.8); /* Для Firefox */
+	-webkit-box-shadow: 0 0px 32px rgba(0,0,0,0.8); /* Для Safari и Chrome */
+	box-shadow: 0 0px 32px rgba(0,0,0,0.8); /* Параметры тени */
+}
+.mouseovered {
+	opacity: 0.8;
+	background-color: #ff8c00;
+	-moz-box-shadow: 0 0px 32px rgba(255,140,0,0.9); /* Для Firefox */
+	-webkit-box-shadow: 0 0px 32px rgba(255,140,0,0.9); /* Для Safari и Chrome */
+	box-shadow: 0 0px 32px rgba(255,140,0,0.9); /* Параметры тени */
+}
+#items-div2 div {
+	cursor: pointer;
+	top: 0;
+	position: absolute;
+	z-index: 1000;
+}
